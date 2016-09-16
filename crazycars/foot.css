@@ -1,0 +1,31 @@
+#foot{
+height:45px;
+}
+#foot a #fb:hover{
+background-color:darkblue;
+border-radius:10px 10px;
+}
+#foot a #gog:hover{
+background-color:blue;
+border-radius:10px 10px;
+}
+#foot a #you:hover{
+background-color:green;
+border-radius:25px 25px;
+}
+#foot a #twi:hover{
+background-color:;
+border-radius:20px 20px;
+}
+#foot a #pin:hover{
+background-color:red;
+border-radius:20px 20px;
+}
+#foot a #ins:hover{
+background-color:orange;
+border-radius:20px 20px;
+}
+#foot a #ln:hover{
+background-color:blue;
+border-radius:25px 25px;
+}

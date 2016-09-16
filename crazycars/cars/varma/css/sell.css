@@ -1,0 +1,19 @@
+div.transbo {
+  background-color: lightgrey; 
+  /*background-image:url("sell pics/Cash-4-Cars-1.jpg");
+  background-image: height="500px" width="auto"*/
+  padding-right: 10px;
+  margin-right: 25px;
+  height: 450px;
+  width: 900px;
+  text-align: center;
+  border: 0.2px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+ }
+
+ div.select{
+height:100px;
+width:100px;
+float:left;
+ }

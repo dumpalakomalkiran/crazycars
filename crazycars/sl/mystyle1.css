@@ -1,0 +1,93 @@
+#slidbox{
+	width:1400px;
+	height:333px;
+}
+#outerbox
+{
+	width:700px;
+	height:333px;
+	overflow:hidden;
+	float:left;
+}
+#sliderbox
+{
+	position:relative;
+	width:2100px;
+	animation-name:cars;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+  }
+#sliderbox img
+{
+  float:left;
+}
+#sliderbox1
+{
+	position:relative;
+	width:2100px;
+	animation-name:car;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+  }
+#sliderbox1 img
+{
+  float:left;
+}
+
+@keyframes cars{
+
+0%
+{ 
+	left:0px;
+}
+33.33%
+{
+   left:0px;
+}
+40%
+{
+	left: -700px;
+}
+66.67%
+{
+	left:-700px;
+}
+73.33%
+{
+	left:-1400px;
+}
+100%{
+	left:-1400px;
+}
+}
+
+@keyframes car{
+
+0%
+{ 
+	right: 1400px;
+}
+33.33%
+{
+    right: 1400px;
+}
+40%
+{
+	right: 700px;
+}
+66.67%
+{
+	right: 700px;
+}
+73.33%
+{
+	right: 0px;
+}
+100%{
+	right:0px;
+}
+}
+#upcome{
+	height:200px;
+	padding-right:50px;
+}
